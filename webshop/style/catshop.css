@@ -1,0 +1,370 @@
+/************************
+ * C A T S H O P styling
+ * Vanja Anderson
+ * 2014-03-18
+ ***********************/
+
+/**
+ * Basic styling
+ */
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background: url("../images/pattern.png") rgba(114,140,140,1);
+}
+
+h1.cs {
+	font: 2.5em Impact, sans-serif;
+	color: rgb(114,140,140);
+	-moz-text-shadow:    1px 1px rgba(255,255,255,0.5);
+  	-webkit-text-shadow: 1px 1px rgba(255,255,255,0.5);
+  	text-shadow:         1px 1px rgba(255,255,255,0.5);
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 15px 2px;
+	background: url("../images/logo.svg") no-repeat right;
+}
+
+h4.cs {
+	font: bold 1.5em Verdana, sans-serif;
+	text-transform: uppercase;
+	color: rgb(114,140,140);
+	-moz-text-shadow:    1px 1px rgba(255,255,255,0.5);
+  	-webkit-text-shadow: 1px 1px rgba(255,255,255,0.5);
+  	text-shadow:         1px 1px rgba(255,255,255,0.5);
+  	margin: -12px 0;
+}
+
+p.author {
+	font-style: italic;
+	font-size: small;
+}
+
+p.cs {
+	font: 0.8em/1.2em georgia, serif;
+}
+
+p#sumbox {
+	text-align:right;
+	margin-bottom: 22px;
+}
+
+p#numbox {
+	font-style: italic;
+	font-size: 0.9em;
+	border-top: 1px solid rgb(204,204,204);
+	padding-top: 6px;
+	margin-bottom: -6px;
+}
+
+span#numitems {
+	/*font-weight: bold;*/
+}
+
+footer.cs {
+	color: rgba(0,0,0,0.8);
+	text-align: center;
+	margin: 0px -16px -16px -16px;
+	letter-spacing: 0.5px;
+	background: rgba(114,140,140,0.6);
+	padding: 0.5em 0;
+	-moz-border-radius:    0px 0px 16px 16px;
+  	-webkit-border-radius: 0px 0px 16px 16px;
+  	border-radius:         0px 0px 16px 16px;
+}
+
+footer.cs p {
+	font: 0.7em Verdana, sans-serif;
+}
+
+footer.cs a {
+	color: rgb(255,255,255);
+}
+
+a.cs {
+	color: rgb(114,140,140);
+}
+
+a.cs:hover {
+	color: rgb(128,0,0);
+}
+
+#catshop {
+	width:900px;
+	background: url('../images/paw.png') rgba(255,255,255,0.8);
+	margin:100px auto;
+	padding: 1em;
+	-moz-border-radius:    16px;
+  	-webkit-border-radius: 16px;
+  	border-radius:         16px;
+}
+
+#catshop fieldset {
+	background: rgba(255,255,255,0.6);
+	border: 1px solid rgb(153,153,153);
+	border-radius:4px;
+	padding:0 1em;
+}
+
+table, #cart {
+	margin-top: 16px;
+}
+
+table img {
+	margin-top: -2px;
+}
+
+table td {
+	padding-bottom: 16px;
+}
+
+table {
+	margin-bottom: 0px;
+}
+
+td.title {
+	font: 0.90em/1.4em georgia, serif;
+}
+
+#cart {
+	background: rgba(255,255,255,0.6);
+	border: 1px solid rgb(153,153,153);
+	border-radius:4px;
+	padding:0 1em 1em 1em;
+	width: 300px;
+	float:right;
+	font-size: smaller;
+}
+
+h2.cart {
+	border-bottom:1px solid rgb(204,204,204);
+	font-weight: bold;
+	margin: 0;
+	padding: 1.3em 0 1.2em 3.5em;
+}
+
+img.cart {
+	float:left;
+	margin: 0.5em 0 0 -0.5em;
+}
+
+#status {
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+.shadow {
+  -moz-box-shadow:    6px 6px 6px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.6);
+  box-shadow:         6px 6px 6px 0px rgba(0,0,0,0.6);
+}
+
+.price {
+	font: 2em Impact, sans-serif;
+	color: rgba(128,0,0, 0.8);
+	margin: 1em 0 0.2em 0;
+}
+
+span.unit {
+	font: 0.6em Verdana, sans-serif !important;
+	color: rgb(0,0,0);
+}
+
+.purchase, .buy, #form-element-doPay {
+	font-size: 14px;
+	background: rgb(0,120,180);
+	color: rgb(255,255,255);
+	width: auto;
+	min-width: 100px;
+	padding: 2px 8px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+#form-element-doPay {
+	float: right;
+}
+
+#clear {
+	margin-top:6px;
+	width:auto;
+	cursor: pointer;
+}
+
+#pay {
+	font-size: 14px;
+	float: right;
+	width: auto;
+	padding: 2px 8px;
+	cursor: pointer;
+}
+
+.purchase:hover, #form-element-doPay:hover {
+	background: rgb(128,0,0);
+	color: rgb(255,255,255);
+}
+
+.infocell {
+	padding: 2em 1em;
+}
+
+.textbox {
+	height:110px;
+	margin-top: 24px;
+	margin-right: 24px;
+	font: 0.75em/1.5em Verdana, sans-serif;
+}
+
+.bluetext {
+	color: rgb(0,120,180);
+}
+
+#catshop fieldset input {
+	padding: 0;
+  	margin: 0;
+	width: 99%;
+}
+
+#catshop fieldset select {
+	padding: 0;
+  	margin: 0;
+	width: 100%;
+}
+
+td.del {
+	color: rgb(128,0,0);
+	font-size: 1.5em;
+	font-weight: bold;
+	float: right;
+	padding: 0px;
+	position:relative;
+	margin-top: -2px;
+	line-height: 80%;
+}
+
+td.del:hover {
+	cursor: pointer;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+table td {
+	vertical-align: top;
+}
+
+#content table td {
+	padding: 4px 0;
+}
+
+#content table th {
+	padding: 0;
+	margin: 0;
+}
+
+#content table p {
+	line-height: 120%;
+}
+
+#content table {
+	margin: 8px 0 -4px 0;
+	text-align: left;
+	font: 1em Georgia, serif;
+	width: 298px;
+}
+
+#content table th:last-child, #content table td:last-child {
+	float: right;
+}
+
+/**
+ * Checkout
+ */
+#catshop fieldset label {
+	font-size: small;
+}
+
+#catshop fieldset output {
+	font-style: italic;
+	color: rgb(153,153,153);
+}
+
+#back {
+	position: relative;
+	left: 16px;
+	top: -36px;
+	cursor: pointer;
+}
+
+.validation-message {
+	font-style: italic; 
+	color: rgb(153,153,153);
+	font-size: smaller;
+}
+
+.success, .error {
+	padding: 8px 16px;
+	margin: 16px 2px;
+	-moz-border-radius:    6px;
+  	-webkit-border-radius: 6px;
+  	border-radius:         6px;
+}
+
+.success p, .error p, .working p {
+	font: 0.8em/1.6em Verdana, serif;
+}
+
+.success {
+	background: rgb(170,255,170);
+}
+
+.error {
+	background: rgb(255,170,170);
+}
+
+.working {
+	background: transparent;
+	padding: 8px;
+}
+
+.working p {
+	display: inline-block; 
+	position: relative; 
+	top: -10px; 
+	left: 12px;
+}
+
+.cform-columns-2 .cform-column-1, .cform-columns-2 .cform-column-2 {
+	padding: 0;
+  	margin: 0;
+  	width: 49%;
+}
+
+.cform-columns-2 .cform-column-1 {
+	float: left;
+}
+
+.cform-columns-2 .cform-column-2 {
+	float: right;
+}
+
+.cform-columns-2 .cform-buttonbar {
+  	padding-bottom: 20px;
+}
+
+.cform-columns-2 .cform-buttonbar p {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.cform-columns-2 .cform-buttonbar input {
+	font-size: 1em;
+	background: rgb(0,120,180);
+	color: rgb(255,255,255);
+	width: 90px !important;
+	border-radius: 8px;
+	margin-bottom: 16px !important;
+}

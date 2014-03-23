@@ -30,7 +30,37 @@ Instructions for installation
  	&lt;?php include('webshop/index.php'); ?>
 &lt;/div></pre>
 
-4. Enjoy!
+4. All books are gathered in the file content.php. Just continue with book 4 or create your own products.
+	<pre>
+$items = array(
+  'book1' => array(	
+		'id'     => 'book1',
+		'title'  => 'The Cat Whisperer',
+		'author' => 'Mieshelle Nagelschneider', 
+		'text'   => 'Why cats do what they do &mdash; and how to get them to do what YOU want.', 
+		'price'  => '499',
+		'url'    => $path . 'book1.jpg'
+		),
+  'book2' => array(	
+		'id'     => 'book2',
+		'title'  => 'Cat Daddy',
+		'author' => 'Jackson Galaxy / Joel Derfner',
+		'text'   => 'What the world\'s most incorrigible cat tought me about life, love and coming clean. 
+					&lt;/p>&lt;p>Jackson Galaxy, star of Animal Planet\'s &lt;em>My Cat from Hell&lt;/em>, with Joel Derfner.', 
+		'price'  => '299',
+		'url'    => $path . 'book2.jpg'
+		 ),
+  'book3' => array(	
+		'id'     => 'book3',
+		'title'  => 'Psycho Kitty',
+		'author' => 'Pam Johnson-Bennet',
+		'text'   => 'Tips for solving your cat\'s behavior.',
+		'price'  => '389',
+		'url'    => $path . 'book3.jpg'
+		),
+);</pre>
+
+5. Enjoy!
 
 
 To-Do

@@ -2,6 +2,10 @@ Catshop - Webshop managed in PHP, jQuery and AJAX
 =================================================
 This is an assignment with shopping cart and checkout page, created in the course "javascript" on Blekinge Tekniska Högskola (Blekinge Institute of Technology), Sweden.
 
+Working Demo
+------------
+Visit my page to see a working demo on [Catshop](http://vanjaswebb.se/incl/content/bth/javascript/Catshop/index.php).
+
 Requirements
 ------------
 To run this framework, you need a web server (Apache) with PHP version of 5.3 or higher. 
